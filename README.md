@@ -4,7 +4,7 @@ MovieMatrix is a responsive and dynamic movie dashboard website that allows user
 
 ## Live Preview
 
-- [Live Demo](https://tinyurl.com/5y24turs) 🔴
+ 🔴 [Live Demo](https://tinyurl.com/5y24turs)
 
 ## Features
 
