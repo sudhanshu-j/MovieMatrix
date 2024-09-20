@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Title -->
+    <title>MovieMatrix</title>
+  </head>
+  <body>
+    <!-- Background Banner -->
+    <img
+      src="/assets/img/banner.jpg"
+      loading="lazy"
+      alt="Background Image"
+      class="bg-img"
+    />
+
+    <div class="bg-blur"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="header-content">
+        <a href="#" class="header-logo">
+          <img src="/logo.png" alt="MovieMatrix Logo" class="header-logo-img" />
+          MovieMatrix
+        </a>
+
+        <div class="header-action">
+          <i class="fa-regular fa-bell"></i>
+          <i class="fa-solid fa-user"></i>
+
+          <div class="header-menu" id="header-menu">
+            <i class="fa-solid fa-outdent"></i>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="header-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input type="search" placeholder="Search movies" class="header-input" />
+      </form>
+    </header>
+
+    <!-- Nav -->
+    <nav class="nav" id="nav">
+      <div class="nav-menu">
+        <a href="#" class="nav-logo">
+          <img src="/logo.png" alt="MovieMatrix Logo" class="nav-logo-img" />
+          MovieMatrix
+        </a>
+
+        <ul class="nav-list">
+          <!-- 1 -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <!-- 2 -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-clapperboard"></i>
+              <span>Movies</span>
+            </a>
+          </li>
+
+          <!-- 3 -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-film"></i>
+              <span>Series</span>
+            </a>
+          </li>
+
+          <!-- 4 -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-heart"></i>
+              <span>Favorites</span>
+            </a>
+          </li>
+        </ul>
+
+        <div>
+          <h3 class="nav-title">Account</h3>
+
+          <ul class="nav-list">
+            <!-- 5 -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa-solid fa-circle-user"></i>
+                <span>Profile</span>
+              </a>
+            </li>
+
+            <!-- 6 -->
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Profile-2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="#" class="nav-link">
+        <i class="fa-solid fa-sign-out-alt"></i>
+        <span>Logout</span>
+      </a>
+
+      <div class="nav-close" id="nav-close">
+        <i class="fa-solid fa-times"></i>
+      </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <main class="main">
+      <!-- Top Banner -->
+      <section class="banner">
+        <article class="banner-card">
+          <a href="#" class="banner-link">
+            <img
+              src="/assets/img/banner.png"
+              alt="Banner Image"
+              class="banner-img"
+              loading="lazy"
+            />
+
+            <div class="banner-overlay"></div>
+
+            <div class="banner-data">
+              <h2 class="banner-title">Venom: The Last Dance (Comming Soon)</h2>
+              <span class="banner-category"> Action, Adventure, Sci-Fi </span>
+            </div>
+          </a>
+        </article>
+      </section>
+
+      <!-- Movie List -->
+      <section class="movie">
+        <h3 class="card-title">Top Movies</h3>
+
+        <div class="movie-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-1.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Joker</h3>
+                  <span class="card-category"> Crime, Drama, Thriller </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-2.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Dune</h3>
+                  <span class="card-category">
+                    Sci-Fi, Adventure, Thriller
+                  </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-3.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Shawshank Redemption</h3>
+                  <span class="card-category"> Drama, Crime, Mystery </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-4.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Fight Club</h3>
+                  <span class="card-category"> Action, Adventure </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-5.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Inception</h3>
+                  <span class="card-category"> Action, Adventure, Sci-Fi </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-6.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Interstellar</h3>
+                  <span class="card-category"> Drama, Sci-Fi, Thriller </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-7.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Dark Knight</h3>
+                  <span class="card-category"> Action, Crime, Drama </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-8.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Godfather</h3>
+                  <span class="card-category"> Crime, Drama </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-9.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Matrix</h3>
+                  <span class="card-category"> Sci-Fi, Thriller, Action </span>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/movie-10.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Gladiator</h3>
+                  <span class="card-category">
+                    Action, Adventure, Drama, Thriller
+                  </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TV Shows -->
+      <section class="movie searies">
+        <h3 class="card-title">Top Series</h3>
+
+        <div class="movie-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-1.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Breaking Bad</h3>
+                  <span class="card-category"> Drama, Crime, Mystery </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-2.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Game of Thrones</h3>
+                  <span class="card-category"> Drama, Romance, Crime </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-3.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Daredevil</h3>
+                  <span class="card-category">
+                    Action, Science Fiction, Drama
+                  </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-4.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Walking Dead</h3>
+                  <span class="card-category">
+                    Action, Science Fiction, Horror
+                  </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-5.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Breathe</h3>
+                  <span class="card-category"> Action, Adventure, Drama </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/series-6.png"
+                  alt="Movie Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Succession</h3>
+                  <span class="card-category"> Action, Drama, Comedy </span>
+                </div>
+
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Releases -->
+      <section class="new">
+        <h3 class="card-title">New Releases</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="new-card-data card-data">
+                  <h3 class="card-name">Deadpool & Wolverine</h3>
+                  <span class="card-category"> Action, Sci-Fi, Comedy </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Alien: Romulus</h3>
+                  <span class="card-category"> Action, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-3.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Longlegs</h3>
+                  <span class="card-category"> Action, Crime, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Borderlands</h3>
+                  <span class="card-category"> Action, Comedy, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Apprentice</h3>
+                  <span class="card-category"> Biography, Drama, History </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Twisters</h3>
+                  <span class="card-category">
+                    Action, Thriller, Adventure
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Salem's Lot</h3>
+                  <span class="card-category"> Horror, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Union</h3>
+                  <span class="card-category"> Action, Comedy, Thriller</span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Furiosa: A Mad Max Saga</h3>
+                  <span class="card-category"> Action, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/new-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Crow</h3>
+                  <span class="card-category"> Drama, Romance, Crime </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <!-- Science Fiction -->
+      <section class="new sci-fi">
+        <h3 class="card-title">Best Sci-Fi Movies & Series</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="new-card-data card-data">
+                  <h3 class="card-name">The Last of Us</h3>
+                  <span class="card-category">
+                    Action, Horror, Sci-Fi, Thriller
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Megalopolis</h3>
+                  <span class="card-category"> Drama, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-3.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">From</h3>
+                  <span class="card-category"> Horror, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">A Quiet Place: Day One</h3>
+                  <span class="card-category"> Horror, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Kingdom of the Planet of the Apes</h3>
+                  <span class="card-category">
+                    Action, Comedy, Sci-Fi, Thriller
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Kalki 2898 AD</h3>
+                  <span class="card-category">
+                    Action, Fantasy, Sci-Fi, Thriller
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Day After Tomorrow</h3>
+                  <span class="card-category"> Action, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Rebel Moon</h3>
+                  <span class="card-category">
+                    Action, Drama, Sci-Fi, Thriller
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Moonfall</h3>
+                  <span class="card-category"> Action, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/sf-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Everything Everywhere All at Once</h3>
+                  <span class="card-category">
+                    Action, Comedy, Sci-Fi, Thriller
+                  </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <!-- Super-Hero Movies -->
+      <section class="new Superhero">
+        <h3 class="card-title">Best Superhero Movies</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="new-card-data card-data">
+                  <h3 class="card-name">Avengers: Endgame</h3>
+                  <span class="card-category"> Action, Adventure, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Captain America: Civil War</h3>
+                  <span class="card-category"> Action, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-3.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Deadpool</h3>
+                  <span class="card-category"> Action, Comedy, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Wonder Woman</h3>
+                  <span class="card-category"> Action, Fantasy, Sci-Fi, </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Black Panther</h3>
+                  <span class="card-category"> Action, Adventure, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Dredd</h3>
+                  <span class="card-category"> Action, Crime, Sci-Fi, </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Shazam!</h3>
+                  <span class="card-category"> Action, Comedy, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Captain Marvel</h3>
+                  <span class="card-category"> Action, Adventure, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Amazing Spider-Man</h3>
+                  <span class="card-category"> Action, Adventure, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/supe-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Aquaman</h3>
+                  <span class="card-category"> Action, Sci-Fi, Fantasy </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <!-- Horror -->
+      <section class="new Horror">
+        <h3 class="card-title">Best Horror Movies</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="new-card-data card-data">
+                  <h3 class="card-name">Immaculate</h3>
+                  <span class="card-category"> Horror, Mystery, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Shutter Island</h3>
+                  <span class="card-category"> Horror, Mystery, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-3.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Insidious</h3>
+                  <span class="card-category"> Horror, Mystery, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">M3GAN</h3>
+                  <span class="card-category"> Horror, Sci-Fi, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Infinity Pool</h3>
+                  <span class="card-category"> Horror, Mystery, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Abigail</h3>
+                  <span class="card-category"> Horror, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Conjuring series</h3>
+                  <span class="card-category"> Horror, Mystery, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">It</h3>
+                  <span class="card-category"> Horror, Mystery, Thriller </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Hereditary</h3>
+                  <span class="card-category"> Horror, Drama, Mystery </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/horr-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Annabelle</h3>
+                  <span class="card-category"> Horror, Thriller, Crime </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Animation -->
+      <section class="new Animated">
+        <h3 class="card-title">Best Animated Movies</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Inside Out 2</h3>
+                  <span class="card-category"> Animation, Comedy, Family </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Kung Fu Panda 4</h3>
+                  <span class="card-category"> Animation, Comedy, Drama </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-3.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Despicable Me 4</h3>
+                  <span class="card-category"> Animation, Comedy, Family </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Mufasa: The Lion King</h3>
+                  <span class="card-category"> (Comming Soon) </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Spider-Man: Across the Spider-Verse</h3>
+                  <span class="card-category"> Animation, Action, Sci-Fi </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Migration</h3>
+                  <span class="card-category"> Animation, Comedy, Family </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Moana 2</h3>
+                  <span class="card-category"> Animation, Comedy, Drama </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Spirited Away</h3>
+                  <span class="card-category">
+                    Animation, Adventure, Family
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">The Super Mario Bros.</h3>
+                  <span class="card-category">
+                    Animation, Action, Adventure
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/ani-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Toy Story Series</h3>
+                  <span class="card-category"> Animation, Comedy, Family </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Anime Series -->
+      <section class="new Anime">
+        <h3 class="card-title">Best Anime Series</h3>
+
+        <div class="new-swiper swiper">
+          <div class="swiper-wrapper">
+            <!-- 1 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-1.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Naruto</h3>
+                  <span class="card-category">Action, Adventure, Shounen </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 2 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-2.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">One Punch Man</h3>
+                  <span class="card-category"
+                    >Action, Adventure, Superhero
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 3 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-3.png"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Dragon Ball Z</h3>
+                  <span class="card-category">Action, Adventure, Fantasy </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 4 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-4.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Pokémon</h3>
+                  <span class="card-category">
+                    Action, Adventure, Fantasy
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 5 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-5.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Bleach</h3>
+                  <span class="card-category">Action, Adventure, Fantasy </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 6 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-6.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Attack on Titan</h3>
+                  <span class="card-category">
+                    Action, Adventure, Fantasy
+                  </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 7 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-7.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Demon Slayer</h3>
+                  <span class="card-category">Action, Adventure, Drama </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 8 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-8.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Gintama</h3>
+                  <span class="card-category">Action, Adventure, Drama </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 9 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-9.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Sailor Moon</h3>
+                  <span class="card-category">Action, Adventure, Drama </span>
+                </div>
+              </a>
+            </article>
+
+            <!-- 10 -->
+            <article class="new-card card-article swiper-slide">
+              <a href="#" class="card-link">
+                <img
+                  src="/assets/img/anime-10.jpg"
+                  alt="New Image"
+                  class="card-img"
+                  loading="lazy"
+                />
+                <div class="card-overlay"></div>
+
+                <div class="card-data">
+                  <h3 class="card-name">Death Note</h3>
+                  <span class="card-category">
+                    Action, Adventure, Mystery
+                  </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>MovieMatrix &copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
