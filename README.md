@@ -2,6 +2,10 @@
 
 MovieMatrix is a responsive and dynamic movie dashboard website that allows users to explore and browse through different categories of movies. The website is built using **HTML**, **CSS**, and **JavaScript**, with a sleek carousel functionality implemented using **SwiperJS**.
 
+## Live Preview
+
+[Live Demo](https://tinyurl.com/5y24turs)
+
 ## Features
 
 - **Responsive Design**: Optimized for different screen sizes including desktops, tablets, and mobile devices.
