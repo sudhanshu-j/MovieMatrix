@@ -54,9 +54,31 @@ To set up the project locally, follow these steps:
   
 - Scroll down to view different movie categories such as Sci-Fi, Anime, Horror, etc.
 
-##SwiperJS Integration
+## SwiperJS Integration
 
 - MovieMatrix uses SwiperJS to implement the carousel/slider on the homepage. SwiperJS is a modern, lightweight, and customizable slider, allowing smooth transitions between movie posters.
 
-To learn more about SwiperJS, check out their [official documentation.](https://swiperjs.com/)
- 
+- To learn more about SwiperJS, check out their [official documentation.](https://swiperjs.com/)
+
+## Responsive Design
+
+- The MovieMatrix website is fully responsive, ensuring that the layout adjusts beautifully on all devices, including smartphones, tablets, and desktops.
+
+
+## Future Enhancements
+
+- Search Functionality: Adding a search bar to allow users to look up specific movies.
+
+- Movie API Integration: Connect to a movie database API to dynamically load movie details, trailers, and reviews.
+
+- User Authentication: Allow users to sign up, log in, and save their favorite movies.
+
+- Rating System: Enable users to rate and comment on movies.
+
+## Screenshots
+
+![On larger Screen Size](https://github.com/user-attachments/assets/ad4f99ba-a568-4233-a726-9ec1cfebf033)
+
+![On Medium Screen Size](https://github.com/user-attachments/assets/3b2ab799-645e-4e8c-8753-09932b005beb)
+
+![On Small Screen Size](https://github.com/user-attachments/assets/7ff183d7-0100-4d04-9458-4f0fc570ccb5)
