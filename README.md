@@ -44,11 +44,11 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/MovieMatrix.git
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd MovieMatrix
 
-1. Open the index.html file in your browser:
+3. Open the index.html file in your browser:
    ```bash
    open index.html
 
